@@ -16,8 +16,8 @@ chars = [*[s]] # Returns a list of each character in a string (unpacking method)
 # ARRAY MANIPULATION (LIST IN PYTHON)
 
 ls = ["derek", "andrew", "blake"]
-ls.sort() # Sorts by alphabetical order or numerical order
-ls.reverse() # Reverses the order of elements in the list
+ls.sort() # Sorts by alphabetical order or numerical order (does not return a new list)
+ls.reverse() # Reverses the order of elements in the list (does not return a new list)
 ls = ls[::-1] # Another way to the reverse the order of elements in the list
 set(ls) # Removes duplicates, changes to a tuple
 "".join(ls) # Concats all of the characters/words in the string, the "" is the delimeter
