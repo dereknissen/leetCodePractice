@@ -19,3 +19,6 @@ ls = ["derek", "andrew", "blake"]
 ls.sort() # Sorts by alphabetical order or numerical order
 ls.reverse() # Reverses the order of elements in the list
 ls = ls[::-1] # Another way to the reverse the order of elements in the list
+set(ls) # Removes duplicates, changes to a tuple
+"".join(ls) # Concats all of the characters/words in the string, the "" is the delimeter
+
